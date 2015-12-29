@@ -1,0 +1,41 @@
+#bigblue{
+  background-color: #0099CC;
+  background-image: url("../img/bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+  height: 780px;
+}
+#slidercnt{
+  width: 570px;
+  height: 330px;
+  background: #333;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.img-link{
+  opacity: .9;
+  -ms-transform: scale(.9,.9); /* IE 9 */
+    -webkit-transform: scale(.9,.9); /* Safari */
+    transform: scale(.9,.9);
+  transition: all .3s;
+}
+.img-link:hover{
+  opacity: 1;
+  -ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Safari */
+    transform: scale(1,1);
+}
+.mt48{margin-top: 48px}
+p{
+  font-size: 18px;
+  line-height: 24px;
+}
+.desc-img{
+  margin: 0 16px 70px 0;
+}
+h5{
+  margin: 70px 0;
+  font-weight: bold;
+  color: #999
+}
