@@ -27,9 +27,12 @@
     transform: scale(1,1);
 }
 .mt48{margin-top: 48px}
-p{
+p,ul{
   font-size: 18px;
   line-height: 24px;
+}
+p+ul{
+    margin-top: -24px;
 }
 .desc-img{
   margin: 0 16px 70px 0;
